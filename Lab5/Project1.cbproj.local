@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.455,D:\Work\OAiP\2_sem\Lab5\Unit2.h=D:\Work\OAiP\2_sem\Lab5\Deque.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.582,C:\Users\Pavel\Documents\RAD Studio\Projects\Unit1.cpp=D:\Work\OAiP\2_sem\Lab5\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.582,C:\Users\Pavel\Documents\RAD Studio\Projects\Unit1.dfm=D:\Work\OAiP\2_sem\Lab5\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.005,C:\Users\Pavel\Documents\RAD Studio\Projects\Project1.cbproj=D:\Work\OAiP\2_sem\Lab5\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.284,=C:\Users\Pavel\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.346,=D:\Work\OAiP\2_sem\Lab5\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.582,C:\Users\Pavel\Documents\RAD Studio\Projects\Unit1.h=D:\Work\OAiP\2_sem\Lab5\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.248,=C:\Users\Pavel\Documents\RAD Studio\Projects\Project1.res</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.455,D:\Work\OAiP\2_sem\Lab5\Unit2.cpp=D:\Work\OAiP\2_sem\Lab5\Deque.cpp</Transaction>
+    <Transaction>2017.05.10 01:02:06.111,D:\Work\OAiP\2_sem\Lab5\Main.h=D:\Work\OAiP\2_sem\Lab5\Unit1.h</Transaction>
+    <Transaction>2017.05.10 01:02:06.111,D:\Work\OAiP\2_sem\Lab5\Main.cpp=D:\Work\OAiP\2_sem\Lab5\Unit1.cpp</Transaction>
+    <Transaction>2017.05.10 01:02:06.111,D:\Work\OAiP\2_sem\Lab5\Main.dfm=D:\Work\OAiP\2_sem\Lab5\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

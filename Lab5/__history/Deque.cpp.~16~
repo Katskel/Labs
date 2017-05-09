@@ -1,0 +1,75 @@
+//---------------------------------------------------------------------------
+
+
+#pragma hdrstop
+
+#include "Deque.h"
+
+void Deque::Pop_front()
+{
+	if(end->prev)
+	{
+		end = end->prev;
+		delete end->next;
+		end->next = NULL;
+	}
+	else
+	{
+		begin_ = end = NULL;
+		delete end;
+	}
+}
+
+String Deque::front()
+{
+	return end->data;
+}
+
+void Deque::push_back(String data)
+{
+	Node* item = new Node();
+	item->data = data;
+	if(!begin_)
+	{
+		begin_ = end = item;
+		item->prev = item->next = NULL;
+	}
+	else
+	{
+		item->next = begin_;
+		item->prev = NULL;
+		begin_->prev = item;
+		begin_ = item;
+	}
+}
+
+Deque::Deque()
+{
+	begin_ = end = NULL;
+}
+
+void Deque::Clear()
+{
+	Node *iterator = begin_, *temp;
+	while(iterator)
+	{
+		temp = iterator;
+		iterator = iterator->next;
+		delete temp;
+    }
+}
+
+void Deque::Show(TMemo* memo)
+{
+	Node *iterator = end;
+	while(iterator)
+	{
+		memo->Lines->Add(iterator->data);
+		iterator = iterator->prev;
+    }
+}
+
+
+//---------------------------------------------------------------------------
+
+#pragma package(smart_init)
